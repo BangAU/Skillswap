@@ -1,0 +1,198 @@
+/***********    banner styling      ***********/
+.banner{
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    background:url(../images/img-hero.jpg) no-repeat;
+    background-size:cover;
+    .gradient{
+        width: 830px;
+        border-radius: 100%;
+        position: absolute;
+        height: 830px;
+        top: -150px;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        background: -webkit-gradient(linear,left top,right top,from(rgba(239,56,47,0.75)),color-stop(30%,rgba(255,102,0,0.75)),to(rgba(255,178,127,0.75)));
+        background: linear-gradient(to right,rgba(239,56,47,0.75) 0%,rgba(255,102,0,0.75) 30%,rgba(255,178,127,0.75) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfef382f',endColorstr='#bfffb27f',GradientType=1);
+    }
+    .content-holder{
+        padding: 60px 0 0;
+        max-width:720px;
+        margin:0 auto;
+        text-align: center;
+        color:#fff;
+        position: relative;
+        z-index: 10;
+        img{
+            display: inline-block;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+/***********    intro--block styling      ***********/
+.intro-block{
+    background:#fff;
+    padding:120px 0;
+    position: relative;
+    z-index: 10;
+    .column{padding-right: 60px;}
+}
+
+/***********    challenge--block styling      ***********/
+.challenge-block{
+    text-align: center;
+    padding:200px 0;
+    color:#fff;
+    background: #ff5c30; /* Old browsers */
+    background: -moz-linear-gradient(left, #f2a08a 0%, #ff5c30 0%, #ff7949 41%, #ffa474 100%, #ffa475 100%, #f2c5ad 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #f2a08a 0%,#ff5c30 0%,#ff7949 41%,#ffa474 100%,#ffa475 100%,#f2c5ad 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #f2a08a 0%,#ff5c30 0%,#ff7949 41%,#ffa474 100%,#ffa475 100%,#f2c5ad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2a08a', endColorstr='#f2c5ad',GradientType=1 ); /* IE6-9 */
+}
+
+/***********    change--block styling      ***********/
+.change-block{
+    padding: 120px 0;
+    .col{
+        width: 49%;
+        padding:0 35px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    ul{
+        list-style:none;
+        margin: 0;
+        padding: 0;
+        font:30px/34px 'ProximaNova-Light';
+    }
+    li{
+        margin-bottom: 30px;
+    }
+}
+
+/***********    register--block styling      ***********/
+.register-block{
+    text-align: center;
+    padding:100px 0;
+    color:#fff;
+    background: #ff5c30; 
+    background: -moz-linear-gradient(left, #f2a08a 0%, #ff5c30 0%, #ff7949 41%, #ffa474 100%, #ffa475 100%, #f2c5ad 100%); 
+    background: -webkit-linear-gradient(left, #f2a08a 0%,#ff5c30 0%,#ff7949 41%,#ffa474 100%,#ffa475 100%,#f2c5ad 100%); 
+    background: linear-gradient(to right, #f2a08a 0%,#ff5c30 0%,#ff7949 41%,#ffa474 100%,#ffa475 100%,#f2c5ad 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2a08a', endColorstr='#f2c5ad',GradientType=1 ); 
+    .holder{
+        max-width:830px;
+        margin:0 auto;
+    }
+    img{
+        display: inline-block;
+        margin:30px 0;
+    }
+}
+
+
+/***********    process--block styling      ***********/
+.process-block{
+    padding: 120px 0;
+    .col{
+        width: 49%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    h2{
+        position: relative;
+        &:before,
+        &:after{
+            position: absolute;
+            content:'';
+            height: 2px;
+            width: 340px;
+            background: #ff6600;
+            right: 10px;
+            transform: rotate(-65deg);
+            top:60px;  
+        }
+        &:after{
+            width: 290px;
+            right: -10px;
+            background:#FFB07C;
+        }
+    }
+    .steps{
+        padding:100px 0 0;
+        .holder{
+            margin-right: 40px;
+            padding:60px 40px;
+            background: #F0F0F0;
+        }
+        ul{
+            padding:0 50px 0 0;
+            list-style:none;
+            margin: 0;
+            li{
+                position: relative;
+                padding-left: 20px;
+                margin-bottom: 15px;
+                &:before{
+                    position: absolute;
+                    content: '';
+                    left: 0;
+                    top: 7px;
+                    width: 4px;
+                    height: 4px;
+                    background:#ff6600;
+                    border-radius: 100%;                }
+            }
+        }
+    }
+}
+
+
+/***********    support--block styling      ***********/
+.support-block{
+    background:#252525;
+    color:#fff;
+    padding: 120px 0;
+    .col{
+        display: inline-block;
+        width: 49%;
+        vertical-align: middle;
+        padding-right:50px;
+    }
+    h2{color:#fff;}
+}
+
+
+/***********    partner--block styling      ***********/
+.partner-block{
+    padding: 120px 0;
+    position: relative;
+    background: #ff5c30; 
+    background: -moz-linear-gradient(left, #f2a08a 0%, #ff5c30 0%, #ff7949 41%, #ffa474 100%, #ffa475 100%, #f2c5ad 100%); 
+    background: -webkit-linear-gradient(left, #f2a08a 0%,#ff5c30 0%,#ff7949 41%,#ffa474 100%,#ffa475 100%,#f2c5ad 100%); 
+    background: linear-gradient(to right, #f2a08a 0%,#ff5c30 0%,#ff7949 41%,#ffa474 100%,#ffa475 100%,#f2c5ad 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2a08a', endColorstr='#f2c5ad',GradientType=1 ); 
+    color:#fff;
+    &:after{
+        position: absolute;
+        content:'';
+        width: 870px;
+        height: 292px;
+        right: 0;
+        background: url(../images/bars-gradient.png) no-repeat;
+        top: 50%;
+        margin-top: -150px;
+    }
+    h2{
+        margin-bottom: 35px;
+    }
+    a{
+        color:#fff;
+        text-decoration: underline;
+        &:hover{text-decoration: none;}
+    }
+}
