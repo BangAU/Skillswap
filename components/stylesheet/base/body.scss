@@ -37,27 +37,11 @@ body{
 h1{
     font:60px/65px 'ProximaNova-Light';
     margin:0 0 20px;
-    @media(max-width:991px){
-        font-size:40px;
-        line-height: 45px;
-    }
-    @media(max-width:767px){
-        font-size:30px;
-        line-height: 34px;
-    }
 }
 h2{
     font:30px/37px 'ProximaNova-Light';
     margin:0 0 20px;
     text-transform: uppercase;
-    @media(max-width:991px){
-        font-size:34px;
-        line-height: 38px;
-    }
-    @media(max-width:767px){
-        font-size:26px;
-        line-height: 30px;
-    }
 }
 h3{
     font:24px/28px 'ProximaNova-Light';
@@ -70,6 +54,12 @@ h4{
     margin:0 0 25px;
     color:#ff6600;
     border-bottom: 2px solid #707070;
+}
+h5{
+    font:15px/18px 'ProximaNova-Regular';
+    color:#ff6600;
+    margin:0 0 30px;
+    text-transform: uppercase;
 }
 p{
     margin:0 0 20px;
@@ -90,4 +80,11 @@ p{
     &:hover{
         color:#ff6600;
     }
+    &.ad{
+        background:#ff6600;
+        color:#fff;
+        min-width:300px;
+        margin-top: 20px;
+    }
 }
+.revealOnScroll{opacity: 0;}

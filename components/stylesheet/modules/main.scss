@@ -4,7 +4,9 @@
     overflow: hidden;
     position: relative;
     background:url(../images/img-hero.jpg) no-repeat;
-    background-size:cover;
+    background-size:110%;
+    background-position: 100% 10%;
+    margin-top: 81px;
     .gradient{
         width: 830px;
         border-radius: 100%;
@@ -36,10 +38,11 @@
 /***********    intro--block styling      ***********/
 .intro-block{
     background:#fff;
-    padding:120px 0;
+    padding:150px 0;
     position: relative;
     z-index: 10;
     .column{padding-right: 60px;}
+    h3{margin: 0;}
 }
 
 /***********    challenge--block styling      ***********/
@@ -56,7 +59,8 @@
 
 /***********    change--block styling      ***********/
 .change-block{
-    padding: 120px 0;
+    padding: 150px 0;
+    h2{opacity: 0;}
     .col{
         width: 49%;
         padding:0 35px;
@@ -71,13 +75,16 @@
     }
     li{
         margin-bottom: 30px;
+        span,strong{
+            opacity: 0;
+        }
     }
 }
 
 /***********    register--block styling      ***********/
 .register-block{
     text-align: center;
-    padding:100px 0;
+    padding:120px 0;
     color:#fff;
     background: #ff5c30; 
     background: -moz-linear-gradient(left, #f2a08a 0%, #ff5c30 0%, #ff7949 41%, #ffa474 100%, #ffa475 100%, #f2c5ad 100%); 
@@ -98,6 +105,7 @@
 /***********    process--block styling      ***********/
 .process-block{
     padding: 120px 0;
+    overflow: hidden;
     .col{
         width: 49%;
         display: inline-block;
@@ -114,7 +122,7 @@
             background: #ff6600;
             right: 10px;
             transform: rotate(-65deg);
-            top:60px;  
+            top:40px;  
         }
         &:after{
             width: 290px;
@@ -128,6 +136,7 @@
             margin-right: 40px;
             padding:60px 40px;
             background: #F0F0F0;
+            opacity: 0;
         }
         ul{
             padding:0 50px 0 0;
@@ -152,11 +161,33 @@
 }
 
 
+/***********    powered--block styling      ***********/
+.powered-block{
+    padding:20px 0 120px;
+    text-align: center;
+    .logo-holder{
+        margin-bottom: 30px;
+    }
+    h2{
+        text-transform: unset;
+        margin-bottom: 70px;
+    }
+    .img-holder{
+        margin-bottom: 40px;
+    }
+    .text-holder{padding:0 10px 40px;}
+    .note{
+        font: 24px/30px 'ProximaNova-Light';
+        a{color:#ff6600;}
+    }
+}
+
+
 /***********    support--block styling      ***********/
 .support-block{
     background:#252525;
     color:#fff;
-    padding: 120px 0;
+    padding: 150px 0;
     .col{
         display: inline-block;
         width: 49%;
@@ -194,5 +225,22 @@
         color:#fff;
         text-decoration: underline;
         &:hover{text-decoration: none;}
+    }
+}
+
+
+/***********    grow--block styling      ***********/
+.grow-block{
+    padding: 120px 0;
+    .img-holder{
+        img{
+            width: 100%;
+            height:auto;
+            vertical-align: top;
+            max-width:490px;
+        }
+    }
+    .text-holder{
+        padding-top: 70px;
     }
 }

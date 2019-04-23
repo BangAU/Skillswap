@@ -1,169 +1,70 @@
-.footer{
-    background:#000;
-    color:#fff;
-    padding: 60px 0;
-    font-size:14px;
-    line-height: 22px;
-    @media(max-width:767px){padding: 30px 0 0;}
-    h3{
-        font-size:18px;
-        line-height: 30px;
-    }
-    a{
+#footer{
+    .footer-top{
+        background:#252525;
         color:#fff;
-        font-weight: 700;
-    }
-    .footer-nav{
-        @media(max-width:991px){display: none;}
-        ul{
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            font:16px/22px 'GT Walsheim Bold';
-            @media(max-width:767px){margin-bottom:30px;}
-            li{
-                margin-bottom: 15px;
-                a{
-                    display: inline-block;
-                    border-bottom:2px solid #ffed00;
-                    text-decoration: none;
-                    padding-bottom: 3px;
-                    &:hover{
-                        text-decoration: none;
-                        border-color:transparent;
-                    }
-                }
-            }
-        } 
-    }
-    .newsroom{
-        @media(max-width:991px){display: none;}
-        ul{
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            li{
-                margin-bottom: 30px;
-                a{
-                    padding: 0 045px;
-                    display: block;
-                    position: relative;
-                    &:before{
-                        content: "";
-                        position: absolute;
-                        width: 0;
-                        height: 0;
-                        border-style: solid;
-                        border-width: 6.5px 0 6.5px 11px;
-                        border-color: transparent transparent transparent #000;
-                        top: 14px;
-                        left: 11px;
-                        z-index: 1;
-                    } 
-                    &:after{
-                        content: "";
-                        position: absolute;
-                        top: 5px;
-                        width: 30px;
-                        height: 30px;
-                        background: #ffed00;
-                        border-radius: 50%;
-                        left: 0;
-                    }
-                }
-            }
+        padding:50px 0 20px;
+        font-size:15px;
+        .col{
+            margin-bottom: 40px;
         }
-    }
-    .engage{
-        ul{
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            li{
-                margin-bottom: 40px;
-                position: relative;
-                padding-left: 60px;
-                a{
-                    display:inline-block;
-                    vertical-align: middle;
-                }
-                .icon-nc{
-                    position: absolute;
-                    left: 0;
-                    width: 60px;
-                    text-align: center;
-                    font-size: 25px;
-                    &:hover{text-decoration: none;}
-                }
-            }
+        .logo-panel{
+            overflow: hidden;
+            margin-bottom: 45px;
         }
-    }
-    .right{
-        // text-align: right;
-        overflow: hidden;
-        @media(max-width:767px){text-align:left;}        
-        .social-links{
-            list-style:none;
-            margin: 0;
-            padding: 0;
-            @media(max-width:1199px){
-                float: left;
-                width: 260px;
-            }
-            @media(max-width:767px){
-                float: none;
-                display: block;
-            }
-            li{
-                display: inline-block;
-                width: 30px;
-                height: 30px;
-                font-size:30px;
-                margin:0 10px 10px 0;
-                a{
-                    font-weight: normal;
-                    &:hover{
-                        text-decoration: none;
-                    }
-                }
-            }
-        }
-        .bottom-right{
-            padding-top: 220px;
+        .logo-right{
+            float: right;
             text-align: right;
-            @media(max-width:1199px){
-                padding-top: 0;
-            }
-            @media(max-width:767px){
-                padding-top: 20px;
-                float: left;
-                text-align-last: left;
-            }
-            ul{
-                list-style: none;
-                margin: 0 0 10px;
-                padding: 0;
-                font-family:'GT Walsheim Bold';
-                li{
-                    display: inline-block;
-                    text-transform: uppercase;
-                    @media(max-width:767px){
-                        margin:0 15px 0 0;
-                    }
-                }
-                a{
-                    display: inline-block;
-                    padding-bottom: 2px;
-                    border-bottom:2px solid #ffed00;
-                    text-decoration: none;
-                    &:hover{
-                        border-bottom-color: transparent;
-                    }
-                }
-            }
-            .copy{
-                font-weight:700;
+            padding-top: 6px;
+            span{
+                display: block;
+                margin-top: 25px;
+                &:first-child{margin: 0;}
             }
         }
+        p{
+            margin: 0 0 5px;
+        }
+        a{color:#fff;}
+    }   
+    .social-links{
+        list-style:none;
+        margin: 0;
+        padding: 0; 
+        li{
+            float: left;
+            margin-right: 15px;
+        }
+        a{
+            display: block;
+        }  
+    }
+    .footer-bottom{
+        padding: 40px 0;
+    }
+    .footer-list{
+        list-style:none;
+        margin: 0;padding: 0;
+        text-align: center;
+        color:#000;
+        li{
+            display: inline-block;
+            padding: 0 15px;position: relative;
+            &:before{
+                position: absolute;
+                content:'';
+                background:#000;
+                width: 2px;
+                left: -1px;
+                top: -2px;
+                bottom: -2px;
+            }
+            &:first-child{
+                &:before{display: none;}
+            }
+            a{
+                color:#f60;
+            }
+        }
+        p{margin: 0;}
     }
 } 

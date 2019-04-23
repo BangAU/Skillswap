@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="" />
     <meta name="author" content="">
-    <title>Skillswap</title>
+    <title>Skillswap NEXTGEN</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

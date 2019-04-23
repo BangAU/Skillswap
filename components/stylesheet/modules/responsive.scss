@@ -1,0 +1,249 @@
+@media(max-width:1199px){
+    .partner-block:after{opacity: 0.4;}
+}
+@media(max-width:991px){
+    h1{
+        font-size:40px;
+        line-height: 45px;
+    }
+    h2{
+        font-size:26px;
+        line-height: 30px;
+    }
+    h3{
+        font-size:20px;
+        line-height: 24px;
+    }
+    h5{
+        margin-bottom: 15px;
+    }
+    .btn-register.ad{
+        min-width: 250px;
+        margin-top: 10px;
+    }
+
+    .header .header-panel{
+        float: none;
+    }
+    #nav{
+        float: right;
+        width: 30px;
+        margin-top: 11px;
+        input{display: block}
+        span{display: block;}
+    }
+    #nav ul{
+        position: absolute;
+        z-index: 10;
+        display: none;
+        right: 0;
+        top: 110%;
+        width: 250px;
+        background: #f60;
+        border:1px solid #f60;
+        li{
+            float: none;
+            display: block;
+            padding: 0;
+            a{
+                color:#fff;
+                display: block;
+                padding: 10px 15px;
+            }
+            &:hover{
+                background: #ffffff;
+                a{
+                    color:#f60;
+                }
+            }
+            &:before{
+                display: none;
+            }
+        }
+    }
+    .btn-login{
+        position: absolute;
+        right:50px;
+        top: 0;
+    }
+
+    .banner{
+        height: 440px;
+        .content-holder{
+            padding:40px 0 0;
+        }
+    }
+    .intro-block{
+        padding: 70px 0 ;
+        .column{
+            padding-right: 0;
+        }
+    }
+    .challenge-block{
+        padding: 100px 0;
+        br{display: none;}
+    }
+    .change-block{
+        padding: 70px 0 50px;
+        ul{
+            font-size:26px;
+            line-height: 30px;
+        }
+    }
+    .register-block{
+        padding: 70px 0;
+    }
+    .process-block{
+        padding: 70px 0;
+        h2:before{right: -50px;}
+        h2:after{right: -60px;}
+        .steps{
+            padding: 50px 0 0;
+            .holder{
+                margin-right: 0;
+                padding: 30px 20px;
+            }
+            ul{
+                padding-right: 10px;
+            }
+        }
+    }
+    .powered-block{padding-bottom: 50px;}
+    .support-block{padding: 70px 0;}
+    .partner-block{padding: 70px 0;}
+    .grow-block{
+        padding: 70px 0;
+        .text-holder{padding-top: 20px;}
+    }
+}
+
+@media(max-width:767px){
+    body{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    h1{
+        font-size:34px;
+        line-height:38px;
+    }
+    h2{
+        font-size:24px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    h3{
+        font-size:18px;
+        line-height: 20px;
+    }
+    p{margin-bottom: 15px;}
+    .btn-register{
+        padding: 15px 20px;
+        min-width: 200px;
+    }
+    .banner {
+        height: 400px;
+        background-size: cover;
+        .gradient{
+            width: auto;
+            height: auto;
+            top: 0;
+            bottom: 0;
+            left: 0;right: 0;
+            border-radius: 0;
+        }
+        .content-holder{
+            padding: 30px 0 0;
+            img{
+                width: 200px;
+                height: auto;
+            }
+        } 
+    }
+    .intro-block{padding: 30px 0;}
+    .challenge-block{
+        padding: 50px 0 30px;
+    }
+    .change-block{
+        padding: 30px 0;
+        .col{
+            display: block;
+            width: 100%;
+        }
+        ul{
+            font-size:23px;
+            line-height: 25px;
+            padding-top:20px;
+            
+        }
+        li{
+            margin-bottom: 15px; 
+        }
+    }
+    .register-block{
+        padding: 40px 0;
+        img{
+            width: 200px;
+            height: auto;
+        }
+    }
+    .process-block{
+        padding: 40px 0;
+        h2:before,
+        h2:after{display: none;}
+        .col{
+            width: 100%;
+            display: block;
+        }
+        .steps{
+            padding: 30px 0 0 ;
+            .holder{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .powered-block{
+        .logo-holder img{width: 160px;}
+        .img-holder{margin-bottom: 20px;}
+        .note{
+            font-size: 20px;
+        }
+    }
+    .support-block{
+        padding: 40px 0;
+        .col{
+            display: block;
+            width: 100%;
+            padding: 0;
+        }
+    }
+    .partner-block{
+        padding: 40px 0;
+        &:after{
+            opacity: 0.15;
+        }
+    }
+    .grow-block{
+        padding: 40px 0;
+        .img-holder{margin-bottom: 20px;}
+    }
+    #footer{
+        .footer-top{
+            p{
+                word-wrap: break-word;
+                word-break: break-all;
+            }
+        }
+        .footer-list{
+            li{
+                display: block;
+                margin-bottom: 7px;
+                &:before{display: none;}
+            }
+        }
+    }
+}
+
+@media(max-width:359px){
+    h1{font-size:30px;}
+   h5{ font-size:13px;}
+}
