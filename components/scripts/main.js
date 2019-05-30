@@ -94,6 +94,13 @@
             }
         }   
     });
+
+    $('.btn-download').click(function(ev){
+        ev.preventDefault();
+        console.log("heeee");
+        window.location.href = '../download-data.php?url=../documents/NEXT0377-FactsheetBrochure-A4-Final.pdf';
+
+    });
    
 
     $(window).on('load', function() {

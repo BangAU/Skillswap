@@ -104,7 +104,7 @@
 
 /***********    process--block styling      ***********/
 .process-block{
-    padding: 120px 0;
+    padding: 120px 0 60px;
     overflow: hidden;
     .col{
         width: 49%;
@@ -160,10 +160,26 @@
     }
 }
 
+/***********    download--block styling      ***********/
+.download-block{
+    padding: 0 0 50px;
+    text-align: center;
+    h3{
+        max-width: 760px;
+        margin: 0 auto 31px;
+    }
+    .btn-download{
+        width: 300px;
+        background:#ff6600;
+        color:#fff;
+    }
+}
+
+
 
 /***********    powered--block styling      ***********/
 .powered-block{
-    padding:20px 0 120px;
+    padding:70px 0 120px;
     text-align: center;
     .logo-holder{
         margin-bottom: 30px;

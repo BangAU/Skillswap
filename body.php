@@ -65,7 +65,7 @@
 <section class="process-block" id="working">
     <div class="container">
         <div class="col">
-            <h2>how does <br/><span class="orange">skilswap work?</span> </h2>
+            <h2>how does <br/><span class="orange">skillswap work?</span> </h2>
         </div>
         <div class="col">
             <p>SkillSwap is all about making your business more competitive. Hire skilled people on non-permanent contracts when you need to ramp up for a new piece of business.</p>
@@ -102,12 +102,18 @@
         </div>
     </div>
 </section>
+<section class="download-block">
+    <div class="container">
+        <h3>Download our fact sheet to find out more about SkillSwap.</h3>
+        <a href="" class="btn-download btn-register">Download factsheet</a>
+    </div>
+</section>
 <section class="powered-block">
     <div class="container">
         <div class="logo-holder">
                 <img src="images/benchon-logo-large.png" width="200" alt=""></strong>
         </div>
-        <h2>SkillSwap is powered by the award-winning BenchOn <br/> Nationl Network Platform</h2>
+        <h2>SkillSwap is powered by the award-winning BenchOn <br/> National Network Platform</h2>
         <div class="row">
             <div class="col-sm-4 revealOnScroll" data-animation="fadeIn" data-timeout="200">
                 <div class="img-holder">
